@@ -52,7 +52,7 @@
     </nav>
     <center>
         <div class="container">
-            <form action="/signupProcess" method="POST">
+            <form method="POST">
                 <div class="row my-5">
                     <div class="col-md-4">
                         <input type="text" name="uid" id="uid" class="form-control" placeholder="uid">
@@ -63,23 +63,23 @@
                     <div class="col-md-4">
                         <input type="text" name="mobile" id="mobile" class="form-control" placeholder="mobile">
                     </div>
-                    <center>
-                        <div class="col-md-2">
-                            <input class="btn btn-primary" type="submit" value="Submit">
-                        </div>
-                        <div class="col-md-2">
-                            <input class="btn btn-primary" type="submit" value="Show All" formaction="/showall">
-                        </div>
-                        <div class="col-md-2">
-                            <input class="btn btn-primary" type="submit" value="Update" formaction="/update">
-                        </div>
-                        <div class="col-md-2">
-                            <input class="btn btn-primary" type="submit" value="Delete" formaction="/delete">
-                        </div>
-                        <div class="col-md-2">
-                            <input class="btn btn-primary" type="submit" value="Show One" formaction="/show">
-                        </div>
-                    </center>
+                </div>
+                <div class="row my-5">
+                    <div class="col-md-2">
+                        <input class="btn btn-primary" type="submit" value="Submit" formaction="/signupProcess">
+                    </div>
+                    <div class="col-md-2">
+                        <input class="btn btn-primary" type="submit" value="Show All" formaction="/showall">
+                    </div>
+                    <div class="col-md-2">
+                        <input class="btn btn-primary" type="submit" value="Update" formaction="/update">
+                    </div>
+                    <div class="col-md-2">
+                        <input class="btn btn-primary" type="submit" value="Delete" formaction="/delete">
+                    </div>
+                    <div class="col-md-2">
+                        <input class="btn btn-primary" type="submit" value="Show One" formaction="/show">
+                    </div>
                 </div>
             </form>
         </div>
