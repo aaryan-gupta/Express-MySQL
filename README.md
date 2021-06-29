@@ -1,2 +1,1 @@
-# Express-MySQL
- 
+Basic CRUD application using Express & MySQL
